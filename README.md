@@ -17,7 +17,7 @@ Therefore I wrote a local Python server, which handles HTTP requests, talks to C
   
 ## Installation
   
-Install Python (Python3) from the [Python website](https://www.python.org/).  
+Install Python 3 from the [Python website](https://www.python.org/).  
   
 Install the Python modules with pip:  
 ```bash
@@ -35,8 +35,7 @@ Within the root directory of the folder, create a new file named ".env" and incl
 ```bash
 API_KEY=YOUR_API_KEY
 ```
-Paste your [OpenAI API](https://platform.openai.com/account/api-keys) key instead of YOUR_API_KEY.
-
+Paste your [OpenAI API](https://platform.openai.com/account/api-keys) key instead of YOUR_API_KEY. Save and then close the file.
   
 Locate the **Minecraft folder** on your computer. The location depends on your operating system:  
   
