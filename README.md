@@ -43,23 +43,19 @@ The folder structure should look like this:
   
 Locate the **Minecraft folder** on your computer. The location depends on your operating system:  
   
-**For Windows:** Find the folder in the **Application Data** directory. To access this, you need to open the Run command (Windows key + R), type in %APPDATA% and press Enter. Look for the "minecraft" folder in the window that opens up.  
+**For Windows:** Open the Run command (Windows key + R), type in %APPDATA% and press Enter. Look for the "minecraft" folder in the window that opens up.  
   
 **For Unix/Linux:** It's usually located in the **Home** directory. You can find it by opening the terminal and typing:
 ```bash
 cd ~/.minecraft
 ```
   
-Once you're inside the **"minecraft"** folder, open the **"minecraft-folder/saves/your-world/serverconfig/computercraft-server.toml"** file, and add these lines to whitelist your local server:  
+Once you found your **"minecraft"** folder, open the **"minecraft-folder/saves/your-world/serverconfig/computercraft-server.toml"** file, and add these lines to whitelist your local server:  
   
 ```bash
 [[http.rules]]
 	host = "127.0.0.0/8"
 	action = "allow"
- 
-[[http.rules]]
-	host = "$private"
-	action = "deny"
 ```
 
 Now you can start the server:
@@ -72,7 +68,7 @@ python server.py
 python3 server.py
 ```
 
-In Minecraft run the following in a CraftOS terminal:
+Open Minecraft, go to a computer, and paste the following into the CraftOS terminal:
 ```bash
 wget https://raw.githubusercontent.com/eldiankyo/cc-chatgpt/main/chatgpt.lua
 ```
@@ -82,7 +78,7 @@ chatgpt
 ```
 
 To close the server:
-  - Click the terminal/command line window and press **Ctrl + c**  
+  - Click the terminal/command line window and press **Ctrl + C**  
   
 To close the ingame program:  
-  - Send "exit" to ChatGPT or press and hold **Ctrl + t**
+  - Send "exit" to ChatGPT or press and hold **Ctrl + T**
