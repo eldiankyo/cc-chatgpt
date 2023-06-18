@@ -69,18 +69,19 @@ Open the **"minecraft-folder/saves/your-world/serverconfig/computercraft-server.
 	action = "deny"
 ```
 
-Now you can start the server from a terminal window:
+Now you can start the server:
+- Open a terminal window / command line
+- Navigate to the folder where you have the **server.py** and the **.env** files
+- Run the server by entering:
 ```bash
 python server.py
-```  
-Or:
-```bash
+# or
 python3 server.py
 ```
 
-And in the game on a computer which has the "chatgpt.lua" file:
+- In **Minecraft** open a computer which has the "chatgpt.lua" file and enter:
 ```bash
 chatgpt
 ```
-
-Have fun!
+To close the server: click the terminal/commandline window and press **Ctrl + c**  
+To close the ingame program: send "exit" to ChatGPT or press and hold **Ctrl + t**
