@@ -37,7 +37,8 @@ git clone https://github.com/eldiankyo/cc-chatgpt.git
 Inside the folder root create a .env file with this content:
   
 ```bash
-# Paste your OpenAI API key instead of YOUR_API_KEY. No need to put apostrofes or any symboles around.
+# Paste your OpenAI API key instead of YOUR_API_KEY.
+# No need to put apostrofes or any symboles around.
 API_KEY=YOUR_API_KEY
 ```
   
@@ -49,7 +50,8 @@ Open your Minecraft folder (On Windows it's inside APPDATA, on Unix/Linux it's ~
 Open the "minecraft-folder/saves/your-world/serverconfig/computercraft-server.toml" file, and add these lines to whitelist our server:
   
 ```bash
-# You can modify the IP address here if you don't want to use this hard coded one, but then don't forget to modify the one in the "server.py" file too!
+# You can modify the IP address here,
+# but then don't forget to modify the one in the "server.py" file too!
 [[http.rules]]
 	host = "127.0.0.0/8"
 	action = "allow"
