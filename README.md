@@ -83,5 +83,7 @@ python3 server.py
 ```bash
 chatgpt
 ```
-To close the server: click the terminal/commandline window and press **Ctrl + c**  
-To close the ingame program: send "exit" to ChatGPT or press and hold **Ctrl + t**
+To close the server:
+  - Click the terminal/command line window and press **Ctrl + c**
+To close the ingame program:
+  - Send "exit" to ChatGPT or press and hold **Ctrl + t**
