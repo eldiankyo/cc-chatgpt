@@ -30,13 +30,12 @@ pip install python-dotenv
 pip install openai
 ```
   
-Clone this repository into a folder of your choice:  
+Copy the contents of this repository to a directory of your preference by using the clone command:
 ```bash
 git clone https://github.com/eldiankyo/cc-chatgpt.git
 ```
   
-Inside the folder root create a .env file with this content:
-  
+Within the root directory of the folder, create a new file named ".env" and include the following content:
 ```bash
 API_KEY=YOUR_API_KEY
 # Paste your OpenAI API key instead of YOUR_API_KEY.
@@ -47,7 +46,7 @@ Locate the **Minecraft folder** on your computer. The location depends on your o
   
 **For Windows:** Find the folder in the **Application Data** directory. To access this, you need to open the Run command (Windows key + R), type in %APPDATA% and press Enter. Look for the "minecraft" folder in the window that opens up.  
   
-**For Unix/Linux:** It's usually located in the **Home** directory. You can find it by opening the terminal and typing
+**For Unix/Linux:** It's usually located in the **Home** directory. You can find it by opening the terminal and typing:
 ```bash
 cd ~/.minecraft
 ```
