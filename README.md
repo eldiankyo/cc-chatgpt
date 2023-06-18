@@ -78,7 +78,7 @@ Open the **"minecraft-folder/saves/your-world/serverconfig/computercraft-server.
 	action = "deny"
 ```
 
-Now you can run the server file in a terminal window:
+Now you can start the server from a terminal window:
 ```bash
 python server.py
 ```  
