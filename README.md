@@ -26,16 +26,20 @@ pip install python-dotenv
 pip install openai
 ```
   
-Copy the contents of this repository to a directory of your preference by using the clone command:
-```bash
-git clone https://github.com/eldiankyo/cc-chatgpt.git
-```
+Download the server.py file from this repository to a directory of your preference.
   
 Within the root directory of the folder, create a new file named ".env" and include the following content:
 ```bash
 API_KEY=YOUR_API_KEY
 ```
 Paste your [OpenAI API](https://platform.openai.com/account/api-keys) key instead of YOUR_API_KEY. Save and then close the file.
+  
+It should look like this:  
+
+📦my-folder
+ ┣ 📜.env
+ ┗ 📜server.py
+  
   
 Locate the **Minecraft folder** on your computer. The location depends on your operating system:  
   
