@@ -50,11 +50,9 @@ Locate the **Minecraft folder** on your computer. The location depends on your o
 cd ~/.minecraft
 ```
   
-Once you're inside the **"minecraft"** folder, open the **"minecraft-folder/saves/your-world/serverconfig/computercraft-server.toml"** file, and add these lines to whitelist our server:  
+Once you're inside the **"minecraft"** folder, open the **"minecraft-folder/saves/your-world/serverconfig/computercraft-server.toml"** file, and add these lines to whitelist your local server:  
   
 ```bash
-# You can modify the IP address here,
-# but then don't forget to modify the one in the "server.py" file too!
 [[http.rules]]
 	host = "127.0.0.0/8"
 	action = "allow"
