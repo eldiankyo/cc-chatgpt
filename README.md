@@ -22,11 +22,7 @@ Install Python (Python3) from the [Python website](https://www.python.org/).
 Install the Python modules with pip:  
 ```bash
 pip install Flask
-```
-```bash
 pip install python-dotenv
-```
-```bash
 pip install openai
 ```
   
