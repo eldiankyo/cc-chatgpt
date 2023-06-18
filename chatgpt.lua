@@ -1,4 +1,4 @@
-local url = "http://127.0.0.1:8000/minecraft"
+local url = "http://localhost:8000/minecraft"
 
 function wipe()
     term.clear()
