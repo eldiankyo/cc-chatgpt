@@ -74,7 +74,7 @@ python server.py
 python3 server.py
 ```
 
-In Minecraft open a computer, run the following:
+In Minecraft open a computer, then run the following in the CraftOS terminal:
 ```bash
 wget https://raw.githubusercontent.com/eldiankyo/cc-chatgpt/main/chatgpt.lua
 ```
