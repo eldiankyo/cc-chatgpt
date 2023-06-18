@@ -50,13 +50,13 @@ Open the "minecraft-folder/saves/your-world/serverconfig/computercraft-server.to
   
 ```bash
 # You can modify the IP address here if you don't want to use this hard coded one, but then don't forget to modify the one in the "server.py" file too!
-	[[http.rules]]
-		host = "127.0.0.0/8"
-		action = "allow"
-
-	[[http.rules]]
-		host = "$private"
-		action = "deny"
+[[http.rules]]
+	host = "127.0.0.0/8"
+	action = "allow"
+ 
+[[http.rules]]
+	host = "$private"
+	action = "deny"
 ```
 
 Now you can run the server file in a terminal window:
