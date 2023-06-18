@@ -4,19 +4,16 @@
 
 ## Introduction
   
-ChatGPT program to the ComputerCraft mod (Minecraft).  
+ChatGPT program for the ComputerCraft mod in Minecraft.  
   
-In CC there are Lua script files, and the mod uses the HTTP API to communicate with programs which are outside of Minecraft.  
-Therefore I wrote a local "server" (server.py) in Python which handles the HTTP requests and returns the response from ChatGPT into the game.
+CC programs (Lua scripts) can connect with programs outside Minecraft using the HTTP API.
+Therefore I wrote a local Python server, which handles HTTP requests, talks to ChatGPT, and brings the ChatGPT responses back into the game.
   
 ## Prerequisites
   
 - OpenAI API key
-- Python
-- Python modules:
-  - flask
-  - dotenv
-  - openai
+- Python installed
+- Python modules installed: Flask, Dotenv, OpenAI
   
 ## Installation
   
@@ -48,9 +45,9 @@ API_KEY=YOUR_API_KEY
   
 Locate the **Minecraft folder** on your computer. The location depends on your operating system:  
   
-For Windows: You can find the folder in the **Application Data** directory. To access this, you need to open the Run command (Windows key + R), type in %APPDATA% and press Enter. Look for the "minecraft" folder in the window that opens up.  
+**For Windows:** Find the folder in the **Application Data** directory. To access this, you need to open the Run command (Windows key + R), type in %APPDATA% and press Enter. Look for the "minecraft" folder in the window that opens up.  
   
-For Unix/Linux: The Minecraft folder is usually located in the **Home** directory. You can find it by opening the terminal and typing
+**For Unix/Linux:** It's usually located in the **Home** directory. You can find it by opening the terminal and typing
 ```bash
 cd ~/.minecraft
 ```
