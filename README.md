@@ -34,7 +34,7 @@ API_KEY=YOUR_API_KEY
 ```
 Paste your [OpenAI API](https://platform.openai.com/account/api-keys) key instead of YOUR_API_KEY. Save and then close the file.
   
-It should look like this:  
+The folder structure should look like this:  
 
 📦my-folder  
  ┣ 📜.env  
