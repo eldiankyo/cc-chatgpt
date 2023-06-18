@@ -38,9 +38,9 @@ git clone https://github.com/eldiankyo/cc-chatgpt.git
 Within the root directory of the folder, create a new file named ".env" and include the following content:
 ```bash
 API_KEY=YOUR_API_KEY
-# Paste your OpenAI API key instead of YOUR_API_KEY.
-# No need to put apostrofes or any symbols around.
 ```
+Paste your [OpenAI API](https://platform.openai.com/account/api-keys) key instead of YOUR_API_KEY.
+
   
 Locate the **Minecraft folder** on your computer. The location depends on your operating system:  
   
