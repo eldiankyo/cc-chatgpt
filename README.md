@@ -34,14 +34,16 @@ git clone https://github.com/eldiankyo/cc-chatgpt.git
 ```
   
 Inside the folder root create a .env file with this content:
-
+  
 ```bash
 # Paste your OpenAI API key instead of YOUR_API_KEY. No need to put apostrofes or any symboles around.
 API_KEY=YOUR_API_KEY
 ```
+  
 Open your Minecraft folder (On Windows it's inside APPDATA, on Unix/Linux it's ~/.minecraft)
 - Copy the "chatgpt.lua" file into "minecraft-folder/saves/your-world/computercraft/0" folder
 - The numbered folders (0, 1, 2...) represents the ingame computers of ComputerCraft.
+  
   
 Open the "minecraft-folder/saves/your-world/serverconfig/computercraft-server.toml" file, and add these lines to whitelist our server:
   
@@ -59,11 +61,13 @@ Open the "minecraft-folder/saves/your-world/serverconfig/computercraft-server.to
 Now you can run the server file in a terminal window:
 ```bash
 python server.py
+  
 #or
+  
 python3 server.py
 ```
 
-And in the on a computer which has the "chatgpt.lua" file:
+And in the game on a computer which has the "chatgpt.lua" file:
 ```bash
 chatgpt
 ```
