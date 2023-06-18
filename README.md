@@ -54,7 +54,7 @@ Once you found your **"minecraft"** folder, open the **"minecraft-folder/saves/y
   
 ```bash
 [[http.rules]]
-	host = "127.0.0.0/8"
+	host = "127.0.0.1/8"
 	action = "allow"
 ```
 
