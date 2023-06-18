@@ -79,7 +79,7 @@ python server.py
 python3 server.py
 ```
 
-- In **Minecraft** open a computer which has the "chatgpt.lua" file and enter:
+In Minecraft open a computer which has the "chatgpt.lua" file and enter:
 ```bash
 chatgpt
 ```
