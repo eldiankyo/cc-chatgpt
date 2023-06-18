@@ -20,7 +20,7 @@ Therefore I wrote a local "server" (server.py) in Python which handles the HTTP 
   
 ## Installation
   
-Install Python3 from the [Python website](https://www.python.org/)
+Install Python (Python3) from the [Python website](https://www.python.org/).
   
 ```bash
 # With pip you can install the necessary modules
