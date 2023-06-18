@@ -62,9 +62,9 @@ Open the "minecraft-folder/saves/your-world/serverconfig/computercraft-server.to
 Now you can run the server file in a terminal window:
 ```bash
 python server.py
-  
-#or
-  
+```  
+Or:
+```bash
 python3 server.py
 ```
 
