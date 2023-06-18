@@ -36,9 +36,9 @@ Paste your [OpenAI API](https://platform.openai.com/account/api-keys) key instea
   
 It should look like this:  
 
-📦my-folder
- ┣ 📜.env
- ┗ 📜server.py
+📦my-folder  
+ ┣ 📜.env  
+ ┗ 📜server.py  
   
   
 Locate the **Minecraft folder** on your computer. The location depends on your operating system:  
