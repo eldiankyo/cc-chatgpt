@@ -20,34 +20,51 @@ Therefore I wrote a local "server" (server.py) in Python which handles the HTTP 
   
 ## Installation
   
-Install Python (Python3) from the [Python website](https://www.python.org/).
+Install Python (Python3) from the [Python website](https://www.python.org/).  
   
+Install the Python modules with pip:  
 ```bash
-# With pip you can install the necessary modules
 pip install Flask
+```
+```bash
 pip install python-dotenv
+```
+```bash
 pip install openai
 ```
   
+Clone this repository into a folder of your choice:  
 ```bash
-# Clone the repository into a folder of your choice
 git clone https://github.com/eldiankyo/cc-chatgpt.git
 ```
   
 Inside the folder root create a .env file with this content:
   
 ```bash
-# Paste your OpenAI API key instead of YOUR_API_KEY.
-# No need to put apostrofes or any symboles around.
 API_KEY=YOUR_API_KEY
+# Paste your OpenAI API key instead of YOUR_API_KEY.
+# No need to put apostrofes or any symbols around.
 ```
   
-Open your Minecraft folder (On Windows it's inside APPDATA, on Unix/Linux it's ~/.minecraft)
-- Copy the "chatgpt.lua" file into "minecraft-folder/saves/your-world/computercraft/0" folder
-- The numbered folders (0, 1, 2...) represents the ingame computers of ComputerCraft.
+Locate the **Minecraft folder** on your computer. The location depends on your operating system:  
+  
+For Windows: You can find the folder in the **Application Data** directory. To access this, you need to open the Run command (Windows key + R), type in %APPDATA% and press Enter. Look for the "minecraft" folder in the window that opens up.  
+  
+For Unix/Linux: The Minecraft folder is usually located in the **Home** directory. You can find it by opening the terminal and typing
+```bash
+cd ~/.minecraft
+```
+  
+Once you're inside the **"minecraft"** folder, find and open the **"saves"** folder. Inside this, you'll find folders for all of your saved worlds. Open the folder named after the world where you want to use "chatgpt".  
+  
+Inside your world's folder, find and open the **"computercraft"** folder.  
+  
+Within the **"computercraft"** folder, you will find folders with numerical names (e.g., 0, 1, 2...). These folders represent the CC computers you have.  
+  
+You need to copy the **"chatgpt.lua"** file into these numerical folders where you want to use chatgpt.  
   
   
-Open the "minecraft-folder/saves/your-world/serverconfig/computercraft-server.toml" file, and add these lines to whitelist our server:
+Open the **"minecraft-folder/saves/your-world/serverconfig/computercraft-server.toml"** file, and add these lines to whitelist our server:  
   
 ```bash
 # You can modify the IP address here,
