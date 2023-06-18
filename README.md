@@ -5,6 +5,7 @@
 ## Introduction
   
 ChatGPT program to the ComputerCraft mod (Minecraft).  
+  
 In CC there are Lua script files, and the mod uses the HTTP API to communicate with programs which are outside of Minecraft.  
 Therefore I wrote a local "server" (server.py) in Python which handles the HTTP requests and returns the response from ChatGPT into the game.
   
@@ -22,7 +23,7 @@ Therefore I wrote a local "server" (server.py) in Python which handles the HTTP 
 Install Python3 from the [Python website](https://www.python.org/)
   
 ```bash
-# Whith pip you can install the necessary modules
+# With pip you can install the necessary modules
 pip install Flask
 pip install python-dotenv
 pip install openai
